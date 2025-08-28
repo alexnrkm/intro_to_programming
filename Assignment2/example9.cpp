@@ -2,16 +2,16 @@
 #include <math.h>
 using namespace std;
 
-int main (){
+int main(){
     
     float x, y;
+    double e = 2.71828182;
 
     cout << "enter x: ";
     cin >> x;
 
-    y = tan (x) * (5/3) + log(fabs(2 * x + 5)) + 1.8;
-
+    y = sqrt(pow(e, 3*x) + 7) + cos (pow(x, 5)) + log(fabs(3*x + 7));
     cout << "y = " << y;
-    
+
     return 0;
 }
