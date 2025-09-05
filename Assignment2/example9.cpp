@@ -9,7 +9,6 @@ int main(){
 
     cout << "enter x: ";
     cin >> x;
-
     y = sqrt(pow(e, 3*x) + 7) + cos (pow(x, 5)) + log(fabs(3*x + 7));
     cout << "y = " << y;
 
