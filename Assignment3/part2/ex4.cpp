@@ -8,4 +8,5 @@ int main(){
     cout << "enter a radius: ";
     cin >> r;
     cout << "S = " << pi*pow(r,2) << endl;
+    return 0;
 }

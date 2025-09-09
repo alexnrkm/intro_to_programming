@@ -1,0 +1,1 @@
+// inline function - Instead of jumping to the function, the computer just copies the code of the function right where you called it.
