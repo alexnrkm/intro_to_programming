@@ -16,6 +16,5 @@ int main(){
 
 float func (float x){
     float y = pow(pow(x, 5) + 1.7, 1.0/7.0) + cos(pow(x, 3)) + log(pow(x, 4)) + sin(pi * x);
-    cout << x  << " "<< y;
     return y;
 }
